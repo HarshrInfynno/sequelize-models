@@ -15,7 +15,7 @@ const options = {
   caseFile: 'p' as CaseFileOption,
   singularize: true,
   useDefine: true,
-  lang: 'ts' as LangOption,
+  //   lang: 'es6' as LangOption,
 }
 
 const auto = new SequelizeAuto(sequelize, '', '', options)
